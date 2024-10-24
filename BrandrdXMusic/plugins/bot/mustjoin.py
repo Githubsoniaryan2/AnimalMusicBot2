@@ -5,7 +5,7 @@ from BrandrdXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "Og_membars"
+MUST_JOIN = "friends_hindi_chatting_world"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
